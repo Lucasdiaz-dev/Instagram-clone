@@ -46,8 +46,8 @@ for (let i = 0; i < posts.length; i++) {
 }
 
 
-imgEl.addEventListener ("dblclick", function(){
-    likesEl.innerHTML = posts[0].likes += 1
+// imgEl.addEventListener ("dblclick", function(){
+//     likesEl.innerHTML = posts[0].likes += 1
     
-})
+// })
 
