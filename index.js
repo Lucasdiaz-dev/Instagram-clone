@@ -3,6 +3,7 @@ const locationEl = document.getElementById("location-el")
 const likesEl = document.getElementById("like-el")
 const usernameEl = document.getElementById("username-el")
 const commentEl = document.getElementById("comment-el")
+const imgEl = document.getElementById("post-el")
 
 
 const posts = [
