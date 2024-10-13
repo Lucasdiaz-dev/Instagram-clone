@@ -1,10 +1,13 @@
  body{
-    background-color: #ffb0b0;
+    background-color: #2d0968;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 html, body {
-    margin: 40px;
+    margin: 0px;
     padding: 0;
 }
 
