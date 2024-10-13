@@ -46,3 +46,9 @@ for (let i = 0; i < posts.length; i++) {
     commentEl.innerHTML = posts[0].comment;
 }
 
+
+imgEl.addEventListener ("dblclick", function(){
+    likesEl.innerHTML = posts[0].likes += 1
+    
+})
+

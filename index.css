@@ -83,9 +83,21 @@ main{
 
 .icons {
     height: 28px;
-    margin-right: -4;
-    padding: 10px 0px 6px 10px;
+    margin: 0 -6px 0 4px;
+    padding: 4px;
     /* border: 1px dotted blue; */
+}
+
+#like-icon:hover {
+    opacity: 50%;
+}
+
+#comment-icon:hover {
+    opacity: 50%;
+}
+
+#dm-icon:hover {
+    opacity: 50%;
 }
 
 .comments {
