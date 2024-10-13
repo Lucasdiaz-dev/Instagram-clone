@@ -3,7 +3,6 @@ const locationEl = document.getElementById("location-el")
 const likesEl = document.getElementById("like-el")
 const usernameEl = document.getElementById("username-el")
 const commentEl = document.getElementById("comment-el")
-const imgEl = document.getElementById("post-el")
 
 
 const posts = [
@@ -40,7 +39,6 @@ for (let i = 0; i < posts.length; i++) {
 
     nameEl.innerHTML = posts[0].name;
     locationEl.innerHTML = posts[0].location;
-    imgEl.src = posts[0].post;
     likesEl.innerHTML = posts[0].likes + " likes";
     usernameEl.innerHTML = posts[0].username;
     commentEl.innerHTML = posts[0].comment;
