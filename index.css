@@ -101,3 +101,7 @@ p, h3 {
 .comments #comment-el {
     padding-left: 4px;
 }
+
+.logo, .profile-pic, #name-el, #location-el, #like-el, #username-el, .icons {
+    cursor: pointer;
+}
